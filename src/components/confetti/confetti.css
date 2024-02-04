@@ -1,0 +1,99 @@
+/* lo comentado sirve para que rote bien */
+
+@keyframes moveStar {
+  from {
+    transform: translateY(-1000px);
+    /* transform: rotate(0); */
+  }
+  to {
+    transform: translateY(500px);
+    /* transform: rotate(360deg); */
+  }
+}
+
+@keyframes moveCurly {
+  from {
+    transform: translateY(-800px);
+
+  }
+  to {
+    transform: translateY(500px);
+  }
+}
+
+@keyframes moveCircle {
+    from {
+      transform: translateY(-1000px);
+
+    }
+    to {
+      transform: translateY(500px);
+    }
+  }
+
+@keyframes moveDot {
+  from {
+    transform: translateY(-800px);
+
+  }
+  to {
+    transform: translateY(500px);
+  }
+}
+
+#starLeft {
+  animation: moveStar 4s infinite linear;
+  /* transform-origin: 2% 100%;
+  transform-box: fill-box; */
+}
+
+#starRight {
+  animation: moveStar 3s infinite linear;
+}
+
+
+#curlyOne {
+  animation: moveCurly 4s infinite linear;
+}
+
+
+#curlyTwo {
+  animation: moveCurly 2s infinite linear;
+}
+
+
+#curlyThree {
+  animation: moveCurly 5s infinite linear;
+}
+
+
+#circleOne {
+  animation: moveCircle 4s infinite linear;
+}
+
+
+#circleTwo {
+  animation: moveCircle 3s infinite linear;
+}
+
+
+#circleThree {
+  animation: moveCircle 5s infinite linear;
+}
+
+
+#dotsOne {
+  animation: moveDot 2s infinite linear;
+}
+
+
+#dotsTwo {
+  animation: moveDot 5s infinite linear;
+}
+
+
+#dotsThree {
+    animation: moveDot 2.5s infinite linear;
+  }
+
+

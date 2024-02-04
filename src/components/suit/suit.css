@@ -1,0 +1,40 @@
+ 
+@keyframes moveSuit {
+    0%{ stroke-dashoffset: 0; }
+    100%{ stroke-dashoffset: 4700; }
+    }  
+    
+    #suit{
+      
+        fill: transparent;
+        stroke-width: 10;
+        stroke: var(--lines);
+       
+        
+        stroke-dasharray: 4700;
+        stroke-dashoffset: 0; 
+        animation: moveSuit 3s infinite linear forwards;  
+        animation-delay: 1.5s;
+        animation-direction: alternate;
+        animation-timing-function: ease-in;
+    }
+   
+    @keyframes moveTie {
+        0%{ stroke-dashoffset: 0; }
+        100%{ stroke-dashoffset: 600; }
+        }  
+        
+        #tie{
+          
+            fill: transparent;
+            stroke-width: 10;
+            stroke: var(--lines);
+           
+            
+            stroke-dasharray: 600;
+            stroke-dashoffset: 0; 
+            animation: moveTie 3s infinite linear forwards;  
+            animation-delay: 1.5s;
+            animation-direction: alternate;
+            animation-timing-function: ease-in;
+        }

@@ -1,0 +1,24 @@
+ 
+@keyframes dress {
+0%{ stroke-dashoffset: 0; }
+100%{ stroke-dashoffset: 2600; }
+}  
+
+#dress{
+  
+    fill: transparent;
+    stroke-width: 10;
+    stroke: var(--lines);
+   
+    
+    stroke-dasharray: 2600;
+    stroke-dashoffset: 0; 
+    animation: dress 3s infinite linear forwards;  
+    animation-delay: 1.5s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+
+
+
+

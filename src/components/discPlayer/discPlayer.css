@@ -1,0 +1,54 @@
+@keyframes movePua {
+    0%   { transform: rotate(0deg);}
+ 
+    75%  {transform: rotate(20deg)}
+ 
+  }
+
+  
+  #pua {
+    animation: movePua 1s infinite ease-in-out;
+   transform-origin: 50% 0%;
+  transform-box: fill-box; 
+  }
+
+  @keyframes moveDisc {
+    0%   { transform: translateY(-5px);}
+    50%   { transform: translateY(5px);}
+    75%   { transform: translateY(-5px);}
+    100%   { transform: translateY(5px);}
+ 
+  }
+
+    
+  #disc {
+    animation: moveDisc 0.5s infinite ease-in-out;
+
+  }
+
+  @keyframes changeColor{
+    0% {fill:pink}
+    33% {fill:burlywood}
+    66% {fill: lightgoldenrodyellow}
+  }
+
+  #button1{
+    animation: changeColor 1s infinite ease-in-out;
+
+  }
+  
+  #button2{
+    animation: changeColor 1.8s infinite ease-in-out;
+
+  }
+  
+  #button3{
+    animation: changeColor 2.6s infinite ease-in-out;
+
+  }
+
+  
+  #button4{
+    animation: changeColor 3.5s infinite ease-in-out;
+
+  }

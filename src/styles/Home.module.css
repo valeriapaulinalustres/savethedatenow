@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**************/
+
+.portada{
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+/* First parallax photo */
+.parallax{
+      /* The image used */
+  background-image: url('../assets/img/mainPhoto.jpg');
+
+  /* Set a specific height */
+  height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+/* Second parallax photo */
+.parallax2{
+    /* The image used */
+background-image: url('../assets/img/beach.jpg');
+
+/* Set a specific height */
+height: 60vh;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.parallax3{
+    background-image: url('../assets/img/mountains.jpg');
+
+    /* Set a specific height */
+    height: 60vh;
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxText2{
+  background-color: var(--color4);
+  color: white;
+  height: 100vh;
+}
+
+body, html{
+    height: 100%;
+}
+
+/*
+
+.container{
+    width: 100vw;
+}
+
+.mainPicture{
+   height: 100%;
+   width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .secondSectionContainer{
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 18%;
+  }
+
+ 
+
+
+
+ 
+
+.thirdSectionContainer{
+  
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ position: relative;
+}
+
+.roomContainer{
+    width: 100%;
+    height: 30vh;
+    border: 3px solid white;
+ overflow: hidden;
+ display: flex;
+  
+    align-items: center;
+    justify-content: center;  
+
+}
+
+.thirdSectionChild{
+    position: absolute; 
+height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;  
+    width: 90vw;
+}
+
+.woodContainer{
+    height: 100%;
+    width: 100vw;
+     overflow: hidden;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.wood{
+    opacity: 50%;
+    
+}
+
+.titleThirdSection{
+    background-color: var(--color1);
+  
+    width: 50%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+*/

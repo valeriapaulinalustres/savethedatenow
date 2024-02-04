@@ -1,0 +1,65 @@
+/* Presentation Section */
+.presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.presentation::after{
+    background-image: url('../assets/icons/img_ondas01.svg');
+    position: absolute;
+    content: '';
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 100%;
+    width: 100%;
+    bottom: -1px;
+}
+
+.presentationTitle{
+    position: absolute; 
+    top: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+
+.h1{
+ 
+    color: var(--main-title);
+}
+
+.h2{
+
+    color: var(--second-title);
+    text-align: center;
+}
+
+.h3{
+    color: var(--second-title);
+}
+
+.h4{
+    color: var(--second-title);
+}
+
+.arrowIcon{
+    color: var(--icons);
+    opacity: 100%;
+    width: 40px;
+    height: 40px;
+    animation-name: arrow;
+    animation-duration: 2s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+
+@keyframes arrow {
+    from {opacity:100%; top:0; width: 70%;}
+    to {opacity: 0%; top: 50px; width: 50%;}
+  }
+

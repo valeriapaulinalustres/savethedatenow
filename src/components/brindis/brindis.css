@@ -1,0 +1,62 @@
+@keyframes moveLeftCup {
+    0%   { transform: translateX(-60px);}
+    12%  { transform: translateX(-65px);}
+    25%  { transform: translateX(-70px);}
+    37%  { transform: translateX(-30px);}
+    50%  { transform: translateX(10px);}
+    62%  { transform: translateX(0px);}
+    75%  { transform: translateX(-10px);}
+    87%  { transform: translateX(0px);}
+    100% { transform: translateX(0px);}
+  }
+
+  @keyframes moveRightCup {
+    0%   { transform: translateX(60px);}
+    12%  { transform: translateX(65px);}
+    25%  { transform: translateX(70px);}
+    37%  { transform: translateX(30px);}
+    50%  { transform: translateX(-10px);}
+    62%  { transform: translateX(0px);}
+    75%  { transform: translateX(10px);}
+    87%  { transform: translateX(0px);}
+    100% { transform: translateX(0px);}
+  }
+
+  
+  @keyframes moveHearts {
+    from {
+      transform: translateY(60px);
+     opacity: 0;
+
+    }
+    to {
+      transform: translateY(-10px);
+     opacity: 100%;
+    }
+  }
+
+  
+#glassOne {
+    animation: moveRightCup 1s infinite ease-in-out;
+
+  }
+
+  #glassTwo {
+    animation: moveLeftCup 1s infinite ease-in-out;
+
+  }
+
+  #heartOne {
+    animation: moveHearts 1s infinite ease-in-out;
+animation-delay: 0.8s;
+  }
+
+  #heartTwo {
+    animation: moveHearts 1s infinite ease-in-out;
+animation-delay: 0.9s;
+  }
+
+  #heartThree {
+    animation: moveHearts 1s infinite ease-in-out;
+animation-delay: 1s;
+  }
