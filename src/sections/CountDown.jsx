@@ -28,6 +28,8 @@ function CountDown() {
       setHours(moment.duration(birthday - now)._data.hours);
       setMinutes(moment.duration(birthday - now)._data.minutes);
       setSeconds(moment.duration(birthday - now)._data.seconds);
+
+
     }
 
   return (
@@ -47,6 +49,10 @@ function CountDown() {
     <div className={styles.clockFrameContainer}>
       <img src={clockFrame} className={styles.frame} alt='clock'/>
       <div className={styles.clockContainer}>
+      <div className={styles.clockColumn}>
+          <div>{months}</div>
+          <div>Meses</div>
+        </div>
         <div className={styles.clockColumn}>
           <div>{days}</div>
           <div>Días</div>
@@ -59,7 +65,7 @@ function CountDown() {
           <div>{minutes}</div>
           <div>Min</div>
         </div>
-        <div className={styles.clockColumn}>
+        <div className={styles.clockColumnLast}>
           <div>{seconds}</div>
           <div>Seg</div>
         </div>

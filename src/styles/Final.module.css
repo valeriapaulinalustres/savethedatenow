@@ -5,9 +5,7 @@
     align-items: center;
     padding: 100px 0;
 height: 35vh;
-background-image: url(../assets/img/fondoColores.jpg);
-background-repeat:no-repeat;
-background-size: cover;
+background-color: var(--main);
 
 }
 
@@ -23,8 +21,14 @@ background-size: cover;
 
 } */
 
+.textContainer{
+    text-align: center;
+}
+
 .h1Final{
     color: var(--lines);
+    font-family: "Great Vibes", cursive;
+    font-size: 60px;
 }
 
 .h2Final{
@@ -37,11 +41,19 @@ background-size: cover;
 
 .link{
     color: var(--text);
-
+cursor: pointer;
 }
 
 .link:hover{
     color: var(--lines);
     text-decoration: underline;
+}
+
+.ahref{
+    text-decoration: none;
+}
+
+.gift{
+    margin-left: 80px;
 }
 

@@ -1,7 +1,7 @@
  
 .button{
   
-    height: 70px;
+    max-height: 70px;
     margin: 20px;
     width: 200px;
     background-color: white;
@@ -22,7 +22,6 @@ padding: 8px 20px;
 .button:hover{
     background-color: var(--lines);
     color: white;
-    border-radius: 100px;
-    border: none;
+
   transition: 2s;
 }

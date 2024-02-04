@@ -1,0 +1,70 @@
+.modalActivity {
+	background: rgba(33, 41, 52, 0.5);
+	left: 0;
+	bottom: 0;
+	right: 0;
+	top: 0;
+	display: flex;
+	position: fixed;
+	z-index: 999;
+}
+
+.windowActivity {
+	background: var(--main);
+	border-radius: 10px;
+	border: 1px solid var(--lines);
+	box-shadow: 0 1px 3px rgba(33, 41, 52, 0.75);
+	box-sizing: content-box;
+	display: flex;
+	flex-direction: column;
+justify-content: center;
+align-items: center;
+	margin: auto;
+	/* max-width: 600px;
+  min-width: 320px !important; */
+	max-width: 800px;
+	max-height: 500px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	/* font-size: 1.3rem; */
+	padding: 20px;
+
+}
+
+.title{
+	margin: 10px;
+	font-size: 28px;
+	text-align: center;
+	font-family: "DM Serif Display", serif;
+	color: var(--lines);
+}
+
+.close{
+	border: 1px solid var(--lines);
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: white;
+	position: absolute;
+	top: 25px;
+	right: 25px;
+	z-index: 2000;
+	box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.50);
+	transition: all 0.5s 0s ease;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.icon{
+	color: var(--lines);
+	width: 40px;
+	height: 40px;
+}
+
+.href{
+	text-decoration: none;
+}

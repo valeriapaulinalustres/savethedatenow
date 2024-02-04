@@ -66,6 +66,7 @@
 }
  
 .timeLeftTitle{
+    font-family: "DM Serif Display", serif;
     margin-top: 20px;
     color: var(--lines);
     opacity: 0;
@@ -73,11 +74,11 @@
     animation-duration: 2s;
     position: relative;
     animation-iteration-count: infinite;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 @keyframes timeLeftTitle {
-    from {opacity:0; font-size: 12px;}
+    from {opacity:0; font-size: 24px;}
     to {opacity: 100%; font-size:34px;}
   }
 
@@ -90,8 +91,8 @@
 }
 
 .frame{
-    width: 280px;
-    height: 280px;
+    width: 380px;
+    height: 380px;
     border-radius: 50%;
 }
 
@@ -117,6 +118,17 @@ z-index: 2;
     align-items: center;
     justify-content: space-between;
     border-right: 1px solid var(--color2);
+    margin: 5px;
+    padding: 5px;
+  
+}
+
+.clockColumnLast{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+   
     margin: 5px;
     padding: 5px;
   

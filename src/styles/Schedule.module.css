@@ -8,12 +8,12 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: space-between;
-padding: 100px 2%;
+
 background: url(../assets/icons/img_ondas02.svg) center 30px no-repeat #ffffff;
     background-color: var(--main);
-    padding-bottom: 15%;
+
     position: relative;
-  padding-bottom: 100px;
+  padding-bottom: 40px;
 }
 
 
@@ -40,11 +40,12 @@ background: url(../assets/icons/img_ondas02.svg) center 30px no-repeat #ffffff;
     background-color: var(--lines);
     padding: 10px 20px;
     position: relative;
- 
+    font-family: "DM Serif Display", serif;
     color: white;
     text-align: center;
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: 20px;
+
 }
 
 .scheduleTitle::before{
@@ -71,4 +72,15 @@ background: url(../assets/icons/img_ondas02.svg) center 30px no-repeat #ffffff;
     width: 50px;
     right: -50px;
     top: 5px;
+}
+
+.subtitle{
+    margin: 10px 0;
+    color: var(--lines);
+    font-size: 24px;
+    font-family: "DM Serif Display", serif;
+}
+
+.ahref{
+    text-decoration: none;
 }

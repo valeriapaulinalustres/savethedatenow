@@ -20,7 +20,7 @@
 
 .presentationTitle{
     position: absolute; 
-    top: 55%;
+    top: 45%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,6 +31,10 @@
 .h1{
  
     color: var(--main-title);
+    font-family: "Great Vibes", cursive;
+    font-size: 110px;
+    line-height: 110px;
+ 
 }
 
 .h2{

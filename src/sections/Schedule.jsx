@@ -1,24 +1,46 @@
+import { useState } from "react";
 import Button from "../components/Button";
 import Brindis from "../components/brindis/Brindis";
 import styles from "../styles/Schedule.module.css";
+import ModalWindow from "../components/ModalWindow";
 
 function Schedule() {
-  const howToArriveText = "Como llegar";
+  const [map, setMap] = useState(false);
+
+  const howToArriveText = "Cómo llegar";
   const confirmArrival = "Confirmar Asistencia";
+
+  function handleClickMap() {
+    setMap(true);
+  }
+
+  function handleCloseMap() {
+    setMap(false);
+  }
+
   return (
     <section className={styles.schedule}>
       {/* <div className={styles.divisor}></div> */}
       <div className={styles.scheduleTitle}>Agendá la Fiesta:</div>
-      <p>
-        Te espero el viernes 12 de abril de 2024 a las 21:00 hs en el Salón Cassano Eventos
-      </p>
       <Brindis />
-      <h3>Dirección</h3>
+      <h3 className={styles.subtitle}>Fecha</h3>
+      <p>Te espero el viernes 12 de abril de 2024 a las 21:00 hs</p>
 
+      <h3 className={styles.subtitle}>Lugar</h3>
+      <p>Salón Cassano Eventos</p>
       <p>Río Negro 1270, El Palomar</p>
-      <Button text={howToArriveText} />
+      <Button text={howToArriveText} func={handleClickMap} />
       <p>Espero que puedas venir a compartir conmigo</p>
-      <Button text={confirmArrival}></Button>
+      <a
+        className={styles.ahref}
+        rel="noreferrer"
+        target="_blank"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSfXX6TBGKTkphoNBnpKJxfoc0r64YHGP9uFepNZ4T_XBL7ymg/viewform?usp=sf_link"
+      >
+        <Button text={confirmArrival}></Button>
+      </a>
+
+      {map && <ModalWindow close={handleCloseMap} />}
     </section>
   );
 }
