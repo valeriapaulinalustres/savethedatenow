@@ -95,7 +95,7 @@ background: url(../assets/icons/img_ondas02.svg) center 30px no-repeat #ffffff;
 }
 
 .scheduleTitle{
-    margin-top: 80px;
+    margin-top: 100px;
     background-color: var(--lines);
     padding: 10px 20px;
     position: relative;

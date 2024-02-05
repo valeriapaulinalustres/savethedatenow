@@ -121,7 +121,7 @@ padding-bottom: 100px;
 @media only screen and (max-width:480px) {
 
     .partyDetailsContainer{
-        height: auto;
+        height: 170vh;
 padding-bottom: 20px;
     }
 
