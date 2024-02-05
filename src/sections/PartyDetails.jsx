@@ -31,7 +31,7 @@ function PartyDetails() {
       </div>
       <div className={styles.partyDetailsSubcontainer}>
         <div className={styles.classContainer}>
-          <p className={styles.cardTitle}>Dress Code</p>
+          <p className={styles.cardTitle}>Vestimenta</p>
           <div className={styles.dressSuitContainer}>
             <Dress />
             <Suit />

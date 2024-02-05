@@ -122,7 +122,7 @@ padding-bottom: 100px;
 
     .partyDetailsContainer{
         height: 170vh;
-
+padding-bottom: 20px;
     }
 
     .partyDetailsSubcontainer{
@@ -136,7 +136,7 @@ padding-bottom: 100px;
      
      
  
-        height: 400px;
+        height: 430px;
         width: 300px;
         margin-bottom: 10px;
         
@@ -144,5 +144,9 @@ padding-bottom: 100px;
 
     .text{
         font-size: 14px;
+    }
+
+    .title{
+        margin-bottom:10px
     }
 }
