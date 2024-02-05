@@ -174,7 +174,7 @@ height: 100%;
     
 .wood{
 height: 220vh;
-   padding: 10px 0;
+   padding: 20px 0;
 }
 
     .photoGroupContainer{
@@ -200,5 +200,11 @@ display: none;
 
     top: 90px;
  
+    }
+
+    .photoBigContainer{
+    
+        justify-content: space-between;
+
     }
 }
