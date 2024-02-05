@@ -85,8 +85,12 @@ background: url(../assets/icons/img_ondas02.svg) center 30px no-repeat #ffffff;
     text-decoration: none;
 }
 
-@media only screen and (max-width:320px) {
+@media only screen and (max-width:480px) {
 .subtitle{
     font-size: 22px
+}
+
+.text{
+    font-size: 14px;
 }
 }

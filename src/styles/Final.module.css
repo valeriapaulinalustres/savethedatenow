@@ -62,7 +62,7 @@ cursor: pointer;
 }
 
 
-@media only screen and (max-width:320px) {
+@media only screen and (max-width:480px) {
     .container{
         display: flex;
         flex-direction: column;
@@ -81,5 +81,10 @@ cursor: pointer;
     .linksContainer{
         text-align: center;
         margin-top: 20px;
+      
+    }
+
+    .link{
+        font-size: 16px;
     }
 }

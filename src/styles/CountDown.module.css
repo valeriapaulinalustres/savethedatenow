@@ -149,7 +149,7 @@ z-index: 2;
     color: var(--text);
   }
 
-@media only screen and (max-width:320px) {
+@media only screen and (max-width:480px) {
     .countDown{
 
         padding-bottom: 10px;

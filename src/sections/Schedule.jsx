@@ -24,13 +24,13 @@ function Schedule() {
       <div className={styles.scheduleTitle}>Agendá la Fiesta:</div>
       <Brindis />
       <h3 className={styles.subtitle}>Fecha</h3>
-      <p>Te espero el viernes 12 de abril de 2024 a las 21:00 hs</p>
+      <p className={styles.text}>Te espero el viernes 12 de abril de 2024 a las 21:00 hs</p>
 
       <h3 className={styles.subtitle}>Lugar</h3>
-      <p>Cassano Eventos</p>
-      <p>Río Negro 1270, El Palomar</p>
+      <p className={styles.text}>Cassano Eventos</p>
+      <p className={styles.text}>Río Negro 1270, El Palomar</p>
       <Button text={howToArriveText} func={handleClickMap} />
-      <p>Espero que puedas venir a compartir conmigo</p>
+      <p className={styles.text}>Espero que puedas venir a compartir conmigo</p>
       <a
         className={styles.ahref}
         rel="noreferrer"

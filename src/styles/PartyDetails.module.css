@@ -118,7 +118,7 @@ padding-bottom: 100px;
     text-decoration: none;
 }
 
-@media only screen and (max-width:320px) {
+@media only screen and (max-width:480px) {
 
     .partyDetailsContainer{
         height: 170vh;
@@ -135,9 +135,14 @@ padding-bottom: 100px;
 
      
      
-    
-        height: 60vh;
-        width: 80vw;
+ 
+        height: 400px;
+        width: 300px;
         margin-bottom: 10px;
+        
+    }
+
+    .text{
+        font-size: 14px;
     }
 }
