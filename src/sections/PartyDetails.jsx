@@ -9,18 +9,17 @@ import styles from "../styles/PartyDetails.module.css";
 import ModalWindowDress from "../components/ModalWindowDress";
 
 function PartyDetails() {
-
-  const [dressCode, setDressCode] = useState(false)
+  const [dressCode, setDressCode] = useState(false);
 
   const textMusic = "Elegir canciones";
   const dress = "Ver";
 
-  function handleOpenDressCode () {
-    setDressCode(true)
+  function handleOpenDressCode() {
+    setDressCode(true);
   }
 
-  function handleCloseDressCode () {
-    setDressCode(false)
+  function handleCloseDressCode() {
+    setDressCode(false);
   }
 
   return (
@@ -37,22 +36,26 @@ function PartyDetails() {
             <Suit />
           </div>
           <p className={styles.text}>Sugerencias para tu vestuario</p>
-          <Button text={dress} func={handleOpenDressCode}/>
+          <Button text={dress} func={handleOpenDressCode} />
         </div>
         {/* <Confetti /> */}
         <div className={styles.classContainer}>
           <div className={styles.cardTitle}>Música</div>
           <DiscPlayer />
-          <p className={styles.text}>¿Qué música te gustaría escuchar en la fiesta?</p>
-          <a target="_blank" rel="noreferrer" className={styles.ahref} href="https://docs.google.com/forms/d/e/1FAIpQLSfGnylb6dwnof5LFXG-4RfEci4tmx1d_covALNcbrTOU7Fimg/viewform?usp=sf_link">
-
-          <Button text={textMusic} />
+          <p className={styles.text}>
+            ¿Qué música te gustaría escuchar en la fiesta?
+          </p>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            className={styles.ahref}
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfGnylb6dwnof5LFXG-4RfEci4tmx1d_covALNcbrTOU7Fimg/viewform?usp=sf_link"
+          >
+            <Button text={textMusic} />
           </a>
         </div>
       </div>
-      {dressCode &&
-      <ModalWindowDress close={handleCloseDressCode}/>
-      }
+      {dressCode && <ModalWindowDress close={handleCloseDressCode} />}
     </section>
   );
 }

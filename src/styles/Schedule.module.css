@@ -93,4 +93,17 @@ background: url(../assets/icons/img_ondas02.svg) center 30px no-repeat #ffffff;
 .text{
     font-size: 18px;
 }
+
+.scheduleTitle{
+    margin-top: 80px;
+    background-color: var(--lines);
+    padding: 10px 20px;
+    position: relative;
+    font-family: "DM Serif Display", serif;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+
+}
 }

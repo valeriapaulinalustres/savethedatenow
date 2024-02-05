@@ -128,7 +128,7 @@ padding-bottom: 20px;
     .partyDetailsSubcontainer{
 
         flex-direction: column;
-   
+   height: 90%;
     }
 
     .classContainer{

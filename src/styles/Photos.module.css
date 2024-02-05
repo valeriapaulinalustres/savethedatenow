@@ -175,6 +175,7 @@ height: 100%;
 .wood{
 height: 220vh;
    padding: 20px 0;
+
 }
 
     .photoGroupContainer{
@@ -195,16 +196,22 @@ height: 220vh;
     .borderFlower{
 display: none;
     }
-
-    .photoBigContainer{
-
-    top: 90px;
- 
+    .borderFlower3{
+        top:30px;
     }
 
     .photoBigContainer{
-    
-        justify-content: space-between;
 
+
+    justify-content: space-between;
+    height: 70%;
+
+    margin-top: 20px;
+    }
+
+    .wood::after{
+   
+        width: 101%;
+  
     }
 }

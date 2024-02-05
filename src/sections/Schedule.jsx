@@ -30,7 +30,7 @@ function Schedule() {
       <p className={styles.text}>Cassano Eventos</p>
       <p className={styles.text}>Río Negro 1270, El Palomar</p>
       <Button text={howToArriveText} func={handleClickMap} />
-      <p className={styles.text}>Espero que puedas venir a compartir conmigo</p>
+      <p className={styles.text}>Te espero para compartir conmigo</p>
       <a
         className={styles.ahref}
         rel="noreferrer"
