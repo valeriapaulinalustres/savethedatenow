@@ -173,7 +173,7 @@ height: 100%;
 
     
 .wood{
-height: 220vh;
+height: auto;
    padding: 20px 0;
 
 }
@@ -194,7 +194,7 @@ height: 220vh;
     }
 
     .borderFlower{
-display: none;
+top:500px;
     }
     .borderFlower3{
         top:30px;

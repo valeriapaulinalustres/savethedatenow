@@ -85,4 +85,8 @@
         justify-content: center;    
     }
     
+.presentation::after{
+
+    bottom: -30px;
+}
   }
