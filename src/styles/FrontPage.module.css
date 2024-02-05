@@ -14,7 +14,7 @@
     background-repeat: no-repeat;
     background-position: bottom center;
     height: 100%;
-    width: 100%;
+    width: 101%;
     bottom: -1px;
 }
 
@@ -67,3 +67,22 @@
     to {opacity: 0%; top: 50px; width: 50%;}
   }
 
+  @media only screen and (max-width:320px) {
+    .h1{
+ 
+   
+        font-size: 80px;
+      
+     
+    }
+
+    .presentationTitle{
+        position: absolute; 
+        top: 55%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;    
+    }
+    
+  }

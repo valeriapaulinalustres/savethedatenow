@@ -168,3 +168,37 @@ height: 100%;
     right: -50px;
     top: 5px;
 }
+
+@media only screen and (max-width:320px) {
+
+    
+.wood{
+
+   padding: 10px 0;
+}
+
+    .photoGroupContainer{
+   
+        flex-direction: column;
+       }
+      
+       .photoContainer{
+        width: 80vw;
+        height: 80vw;
+        border: 3px solid white;
+        overflow: hidden;
+        margin: 5px;
+        position: relative;
+        border-radius: 10%;
+    }
+
+    .borderFlower{
+display: none;
+    }
+
+    .photoBigContainer{
+
+    top: 90px;
+ 
+    }
+}

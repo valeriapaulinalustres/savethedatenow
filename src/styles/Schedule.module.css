@@ -84,3 +84,9 @@ background: url(../assets/icons/img_ondas02.svg) center 30px no-repeat #ffffff;
 .ahref{
     text-decoration: none;
 }
+
+@media only screen and (max-width:320px) {
+.subtitle{
+    font-size: 22px
+}
+}

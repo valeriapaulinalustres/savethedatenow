@@ -50,24 +50,24 @@ function CountDown() {
       <img src={clockFrame} className={styles.frame} alt='clock'/>
       <div className={styles.clockContainer}>
       <div className={styles.clockColumn}>
-          <div>{months}</div>
-          <div>Meses</div>
+          <div className={styles.clockFont}>{months}</div>
+          <div className={styles.clockFont}>Meses</div>
         </div>
         <div className={styles.clockColumn}>
-          <div>{days}</div>
-          <div>Días</div>
+          <div className={styles.clockFont}>{days}</div>
+          <div className={styles.clockFont}>Días</div>
         </div>
         <div className={styles.clockColumn}>
-          <div>{hours}</div>
-          <div>Hs</div>
+          <div className={styles.clockFont}>{hours}</div>
+          <div className={styles.clockFont}>Hs</div>
         </div>
         <div className={styles.clockColumn}>
-          <div>{minutes}</div>
-          <div>Min</div>
+          <div className={styles.clockFont}>{minutes}</div>
+          <div className={styles.clockFont}>Min</div>
         </div>
         <div className={styles.clockColumnLast}>
-          <div>{seconds}</div>
-          <div>Seg</div>
+          <div className={styles.clockFont}>{seconds}</div>
+          <div className={styles.clockFont}>Seg</div>
         </div>
       </div>
     </div>

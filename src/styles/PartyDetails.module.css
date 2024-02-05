@@ -117,3 +117,27 @@ padding-bottom: 100px;
 .ahref{
     text-decoration: none;
 }
+
+@media only screen and (max-width:320px) {
+
+    .partyDetailsContainer{
+        height: 170vh;
+
+    }
+
+    .partyDetailsSubcontainer{
+
+        flex-direction: column;
+   
+    }
+
+    .classContainer{
+
+     
+     
+    
+        height: 60vh;
+        width: 80vw;
+        margin-bottom: 10px;
+    }
+}
