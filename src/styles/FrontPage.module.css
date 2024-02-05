@@ -64,7 +64,7 @@
 
 @keyframes arrow {
     from {opacity:100%; top:0; width: 70%;}
-    to {opacity: 0%; top: 50px; width: 50%;}
+    to {opacity: 0%; top: 20px; width: 50%;}
   }
 
   @media only screen and (max-width:480px) {
@@ -78,15 +78,12 @@
 
     .presentationTitle{
         position: absolute; 
-        top: 55%;
+        top: 60%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;    
     }
     
-.presentation::after{
 
-    bottom: -100px;
-}
   }

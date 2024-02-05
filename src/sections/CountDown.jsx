@@ -4,7 +4,7 @@ import { RiDoubleQuotesR } from "react-icons/ri";
 import styles from '../styles/CountDown.module.css'
 import { useState } from "react";
 import moment from "moment";
-import borderFlower from "../assets/img/florBorde.png";
+
 
 function CountDown() {
 

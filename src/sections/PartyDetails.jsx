@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Button from "../components/Button";
-import Confetti from "../components/confetti/Confetti";
 
 import DiscPlayer from "../components/discPlayer/DiscPlayer";
 import Dress from "../components/dress/Dress";

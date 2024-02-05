@@ -15,7 +15,7 @@
 /* First parallax photo */
 .parallax{
       /* The image used */
-  background-image: url('../assets/img/mainPhoto.jpg');
+  background-image: url('../assets/img/DSC_6064.jpg');
 
   /* Set a specific height */
   height: 100vh;
@@ -34,7 +34,7 @@
 /* Second parallax photo */
 .parallax2{
     /* The image used */
-background-image: url('../assets/img/beach.jpg');
+background-image: url('../assets/img/DSC_6144.jpg');
 
 /* Set a specific height */
 height: 60vh;
@@ -47,7 +47,7 @@ background-size: cover;
 }
 
 .parallax3{
-    background-image: url('../assets/img/mountains.jpg');
+    background-image: url('../assets/img/DSC_5979.jpg');
 
     /* Set a specific height */
     height: 60vh;

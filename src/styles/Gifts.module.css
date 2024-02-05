@@ -1,7 +1,7 @@
 .giftsContainer{
     height: 100vh;
     width: 100%;
-    background-image: url('../assets/img/bokehRosa.jpg');
+    background-image: url('');
     position: relative;
    display: flex;
    flex-direction: column;
@@ -10,7 +10,7 @@
 }
 
 .giftsContainer::after{
-    background-image: url('../assets/icons/img_ondas05.svg');
+    background-image: url('');
     position: absolute;
     content: '';
     background-size: contain !important;
@@ -26,7 +26,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url('../assets/img/flora-312815.svg');
+    background-image: url('');
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: contain;
