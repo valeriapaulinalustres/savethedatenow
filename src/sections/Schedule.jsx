@@ -27,7 +27,7 @@ function Schedule() {
       <p>Te espero el viernes 12 de abril de 2024 a las 21:00 hs</p>
 
       <h3 className={styles.subtitle}>Lugar</h3>
-      <p>Salón Cassano Eventos</p>
+      <p>Cassano Eventos</p>
       <p>Río Negro 1270, El Palomar</p>
       <Button text={howToArriveText} func={handleClickMap} />
       <p>Espero que puedas venir a compartir conmigo</p>
