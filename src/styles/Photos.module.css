@@ -1,6 +1,6 @@
 
 .wood{
-    height: 100vh;
+    height: 200vh;
     width: 100%;
     background-color: var(--secondary);
     /* background-image: url('../assets/img/maderaRosas.jpg'); */
@@ -173,7 +173,7 @@ height: 100%;
 
     
 .wood{
-height: 230vh;
+height: 250vh;
    padding: 20px 0;
 
 }

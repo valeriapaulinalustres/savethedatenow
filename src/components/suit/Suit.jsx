@@ -3,7 +3,7 @@ import './suit.css'
 function Suit() {
   return (
 
-<svg height="150" viewBox="0 0 590 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg height="100" viewBox="0 0 590 800" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="Group">
 <g id="traje">
 <path id="tie" d="M297.559 58.4222L295.937 61.6762L298.071 64.6202L328.877 107.128L294.966 297.205L261.047 107.131L291.901 64.6238L294.04 61.6761L292.412 58.4177L280.866 35.306H309.084L297.559 58.4222Z" stroke="black" stroke-width="12"/>
