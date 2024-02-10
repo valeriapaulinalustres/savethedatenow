@@ -30,7 +30,7 @@ function PartyDetails() {
       <div className={styles.partyDetailsSubcontainer}>
         <div className={styles.classContainer}>
           <p className={styles.cardTitle}>Vestimenta</p>
-          <div className={styles.dressSuitContainer}>
+          <div className={dressCode ? styles.dressSuitContainerDisabled : styles.dressSuitContainer}>
             <Dress />
             <Suit />
           </div>
