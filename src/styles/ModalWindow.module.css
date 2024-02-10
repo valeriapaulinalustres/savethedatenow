@@ -69,6 +69,27 @@ align-items: center;
 	text-decoration: none;
 }
 
-@media only screen and (max-width:480px) {
+.map{
+	width: 600px;
+	height: 450px;
+}
 
+@media only screen and (max-width:480px) {
+	.windowActivity {
+   
+
+		
+		width: 80%;
+
+	
+	}
+
+	.modalActivity {
+pointer-events:none
+	}
+
+	.map{
+		width: 95%;
+		height: 95%;
+	}
 }

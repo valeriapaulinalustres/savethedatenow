@@ -1,0 +1,45 @@
+
+
+
+
+  @keyframes changeColor{
+    0% {fill:pink}
+    33% {fill:burlywood}
+    66% {fill: lightgoldenrodyellow}
+  }
+
+  #cordon1{
+    animation: changeColor 1s infinite ease-in-out;
+
+  }
+  
+  #cordon2{
+    animation: changeColor 1.8s infinite ease-in-out;
+
+  }
+  
+  #cordon3{
+    animation: changeColor 2.6s infinite ease-in-out;
+
+  }
+
+  
+  #cordon4{
+    animation: changeColor 3.5s infinite ease-in-out;
+
+  }
+
+  
+
+  @keyframes paintCross{
+    0% {stroke:pink}
+    33% {stroke:burlywood}
+    66% {stroke: lightgoldenrodyellow}
+   
+  }
+
+  #cross{
+    animation: paintCross 1s infinite ease-in-out;
+
+  }
+

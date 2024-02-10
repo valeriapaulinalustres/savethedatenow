@@ -1,18 +1,30 @@
 import styles from "../styles/ModalWindowDress.module.css";
 import { IoClose } from "react-icons/io5";
+import Dress from "../components/dress/Dress";
+import Suit from "./suit/Suit";
+import Sneaker from "./sneaker/Sneaker";
+import Shoe from "./shoe/Shoe";
 
-function ModalWindowDress({close}) {
+function ModalWindowDress({ close }) {
   return (
     <div className={styles.modalActivity}>
       <div className={styles.windowActivity}>
-        <div className={styles.title}>Dress Code</div>
-        <div className={styles.close}>
-          <IoClose className={styles.icon} onClick={close}/>
+        <div className={styles.title}>
+          Dress Code 
         </div>
-      <div className={styles.container}>
-
-      </div>
-      
+        <p className={styles.code}>Elegante</p>
+        <div className={styles.close}>
+          <IoClose className={styles.icon} onClick={close} />
+        </div>
+        <div className={styles.container}>
+          <div className={styles.iconContainer}>
+            <Dress />
+            <Suit />
+            <Shoe />
+            <Sneaker />
+          </div>
+          <p className={styles.text}>Trae un accesorio sorprendente para el Baile Carioca. ¡El más ingenioso tiene premio!</p>
+        </div>
       </div>
     </div>
   );

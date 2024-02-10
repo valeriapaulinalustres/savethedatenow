@@ -1,0 +1,22 @@
+ 
+@keyframes vector {
+    0%{ stroke-dashoffset: 0; }
+    100%{ stroke-dashoffset:3100; }
+    }  
+    
+    #Vector{
+      
+        fill: transparent;
+        stroke-width: 10;
+        stroke: var(--lines);
+       
+        
+        stroke-dasharray: 3100;
+        stroke-dashoffset: 0; 
+        animation: vector 3s infinite linear forwards;  
+        animation-delay: 1.5s;
+        animation-direction: alternate;
+        animation-timing-function: ease-in;
+    }
+    
+    
