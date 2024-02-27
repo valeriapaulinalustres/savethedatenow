@@ -46,7 +46,7 @@ function CountDown() {
         <div className={styles.clockContainer}>
           <div className={styles.clockColumnLast}>
             <div className={styles.clockFont}>{months}</div>
-            <div className={styles.clockFont}>Meses</div>
+            <div className={styles.clockFont}>Mes</div>
           </div>
           <div className={styles.clockColumnLast}>
             <div className={styles.clockFont}>{days}</div>

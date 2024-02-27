@@ -87,7 +87,7 @@
 
 .clockFrameContainer{
     width: 100vw;
-    
+    margin-top: 20px;
  position: relative;
     display: inline-block;
     text-align: center;
@@ -159,6 +159,11 @@ z-index: 2;
     
     }
  
+    .clockFrameContainer{
+   
+        margin-top: 0px;
+   
+    }
 
     .invitationText{
         padding: 3% 10%;

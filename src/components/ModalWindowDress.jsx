@@ -23,7 +23,7 @@ function ModalWindowDress({ close }) {
             <Shoe />
             <Sneaker />
           </div>
-          <p className={styles.text}>Trae un accesorio sorprendente para el Baile Carioca. ¡El más ingenioso tiene premio!</p>
+          {/* <p className={styles.text}>Trae un accesorio sorprendente para el Baile Carioca. ¡El más ingenioso tiene premio!</p> */}
         </div>
       </div>
     </div>
