@@ -29,7 +29,7 @@ function Schedule() {
       <h3 className={styles.subtitle}>Lugar</h3>
       <p className={styles.text}>Cassano Eventos</p>
       <p className={styles.text}>Río Negro 1270, El Palomar</p>
-      <Button text={howToArriveText} func={handleClickMap} />
+      <Button text={howToArriveText} onClick={handleClickMap} />
       <p className={styles.text}>Te espero para compartir conmigo</p>
       <a
         className={styles.ahref}
