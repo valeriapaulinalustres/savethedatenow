@@ -17,7 +17,7 @@ function CountDown() {
   function myCallback() {
     let now = moment();
 
-    let birthday = moment("April 12th, 2024 21:00:00", "MMM-DD-YYYY HH:mm:ss");
+    let birthday = moment("April 12th, 2025 21:00:00", "MMM-DD-YYYY HH:mm:ss");
     //console.log(now.format('MMM-DD HH:mm:ss'), birthday.format('MMM-DD HH:mm:ss'))
 
     //console.log(moment.duration(birthday - now)._data)
